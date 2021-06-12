@@ -318,7 +318,7 @@ mv -f *.img.gz ../../openwrt/bin/targets/armvirt/* && sync
 cd ../../
 
 
-svn co https://github.com/281677160/N1/trunk reform
+svn co https://github.com/8688Add/N1-Dabao/trunk reform
 cp openwrt/bin/targets/armvirt/*/*.tar.gz reform/openwrt
 cd reform
 sudo ./gen_openwrt -d -k latest
